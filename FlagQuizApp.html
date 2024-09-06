@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag Quiz App</title>
+    <script src="FlagQuizApp.js"></script>
+  </head>
+
+  <style>
+    body
+    {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .flagContainer
+    {
+      display: flex;
+    }
+
+    .flagContainer img
+    {
+      width: 100;
+      height: 50px;
+      padding: 5px;
+    }
+
+    .container
+    {
+      margin-top: 20px;
+      border: 2px solid black;
+      padding: 20px;
+      background-color: rgb(196, 190, 190);
+      text-align: center;
+    }
+
+    .mainImg
+    {
+      width: 100%;
+    }
+    
+    .container button
+    {
+      width: 100%;
+      border-radius: 15px;
+      font-size: 20px;
+      border: 2px solid black;
+      background-color: rgb(86, 98, 236);
+      padding: 5px;
+      color: white;
+      cursor: pointer;
+    }
+  </style>
+
+  <body>
+    <div class="container">
+      <h1>Flag Quiz App</h1>
+      <div class="flagContainer">
+        <p>1</p><img src="/SigmaSchool/Replit Coding Practice/Photo/QuizMalaysiaFlag.png" alt="">
+        <p>2</p><img src="/SigmaSchool/Replit Coding Practice/Photo/QuizSingaporeFlag.png" alt="">
+        <p>3</p><img src="/SigmaSchool/Replit Coding Practice/Photo/QuizChinaFlag.png" alt="">
+        <p>4</p><img src="/SigmaSchool/Replit Coding Practice/Photo/QuizTaiwanFlag.png" alt="">
+        <p>5</p><img src="/SigmaSchool/Replit Coding Practice/Photo/QuizJapanFlag.png" alt="">
+      </div>
+      <img class="mainImg" src="/SigmaSchool/Replit Coding Practice/Photo/QuizApp.png" alt="">
+      <p>
+        Click on the button below to start&#33;
+      </p>
+      <button onclick="startQuiz()">Start Quiz</button>
+    </div>
+      
+  </body>
+</html>
